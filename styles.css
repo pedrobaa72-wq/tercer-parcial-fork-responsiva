@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 8%;
+  padding: 8px 8%;
   background: #fff;
   box-shadow: 0 1px 6px rgba(0,0,0,0.05);
 }
@@ -41,6 +41,7 @@ nav ul {
   display: flex;
   gap: 30px;
   list-style: none;
+  
 }
 
 nav a {
@@ -52,8 +53,17 @@ nav a {
 .btn-primary {
   background: linear-gradient(90deg, #6b46ff, #9d6eff);
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 17px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-primary_1 {
+  background: linear-gradient(90deg, #6b46ff, #9d6eff);
+  color: #fff;
+  padding: 24px 18px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
@@ -106,26 +116,29 @@ nav a {
 .buttons {
   margin-bottom: 50px;
 }
+.stat_1 {
+  display: flex; 
+  gap: 5px;
+  align-content: center;
+}
 
-.stats {
+.stat-header {
   display: flex;
-  gap: 40px;
+  align-items: center;
+  gap: 8px;
 }
 
-.stats h2 {
-  color: #1c1c1c;
-  font-size: 28px;
+.stat-icon {
+  width: 28px;
+  height: 28px;
 }
 
-.stats p {
-  color: #777;
-  font-size: 14px;
-}
 
 .hero-image {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content:right;
+
 }
 
 .hero-image img {
