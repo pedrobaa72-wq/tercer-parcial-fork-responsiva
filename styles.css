@@ -89,8 +89,6 @@ body {
   margin: auto;
   padding-top: 124px;
   gap: 80px;
-  font-size: 18px;
-  font-family: Manrope;
   justify-content: center;
 }
 
@@ -104,7 +102,7 @@ height: 64;
 font-size: 24px;
 background-color: white;
 color: #333333;
-width: 570px;
+width: 540px;
 border-radius: 8px;
 align-items:center;
 justify-items: center;
@@ -112,6 +110,11 @@ justify-items: center;
 
 .imjeff{
 padding-top: 20px;
+}
+
+.imjeff h1,.milestonesintroduction h1{
+font-size: 58px;
+color: #333333;
 }
 
 .imjeff p{
@@ -129,7 +132,70 @@ font-size: 14px;
  gap: 50px;
 }
 
-.aboutstats p{
+.aboutstats p, .milestonesintroduction p{
 color: #4D4D4D;
 font-size: 14px;
+}
+
+.milestones{
+  width: 1596px;
+  height: 2658px;
+  margin: auto;
+  padding-top: 150px;
+  justify-content: center;
+}
+
+.milestonesintroduction{
+width: 996px;
+margin: auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.milestonesintroduction h1{
+font-size: 58px;
+color: #333333;
+}
+
+.timelinerecent{
+left: 50%;
+border: solid, #9E00FF 2px;
+border-top: none;
+border-bottom: none;
+border-left: none;
+height: 377px;
+position: absolute;
+}
+
+.timelineold{
+left: 50%;
+border: solid, #DDCCFF 2px;
+border-top: none;
+border-bottom: none;
+border-left: none;
+height: 377px;
+position: absolute;
+}
+
+.now{
+    display: flex;
+    justify-self: center;
+    padding: 15px 36px;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.year{
+    display: flex;
+    justify-self: center;
+    padding: 15px 36px;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 377px;
+    background-color: white;
+    border-radius: 8px;
 }
