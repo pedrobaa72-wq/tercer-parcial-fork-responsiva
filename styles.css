@@ -765,3 +765,251 @@ body {
     font-size: 0.8em;
     margin-top: 30px;
 }
+
+/*dispositivos moviles*/
+
+
+@media (min-width: 365px) and (max-width: 896px) {
+   /*primera sección*/
+    body {
+        padding: 20px 10px;
+    }
+
+    .skills-section h1, .benefits-header h2, .works-section h1, .FAQ-header h2 {
+        font-size: 32px;
+    }
+
+    .subtitle, .benefits-header p, .works-section .subtitle {
+        font-size: 16px;
+    }
+
+    .benefits {
+        margin-bottom: 80px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .wide, .narrow {
+        grid-column: span 1;
+        padding: 25px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .works-section {
+        padding: 40px 10px;
+        margin-bottom: 80px;
+    }
+    
+    .work-card-slide {
+        padding: 20px;
+    }
+
+    .work-card-slide h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .prev-btn, .next-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .prev-btn {
+        left: 5px;
+    }
+
+    .next-btn {
+        right: 5px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+    }
+
+    #project-slide-1:checked ~ .slider-dots label[for="project-slide-1"],
+    #project-slide-2:checked ~ .slider-dots label[for="project-slide-2"],
+    #project-slide-3:checked ~ .slider-dots label[for="project-slide-3"] {
+        background-color: var(--purple);
+        height: 8px;
+    }
+    
+    .thumbs .thumb-img {
+        width: 55px;
+    }
+
+    .btn {
+        padding: 14px 30px;
+        font-size: 16px;
+    }
+
+    .FAQ-body {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .Contact-card {
+        max-width: 100%;
+        padding: 30px;
+        margin: 0 auto; 
+    }
+
+    .Contact-card .estrella {
+        margin: 0 auto;
+    }
+
+    .FAQ {
+        padding: 40px 10px 20px;
+    }
+
+    .FAQ-header {
+        margin-bottom: 30px;
+    }
+
+    .Accordion {
+        padding: 20px;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .Accordion-cerrado, .Accordion-abierto {
+        padding: 15px;
+    }
+
+    .Accordion-header h3 {
+        font-size: 16px;
+    }
+
+    .Accordion-body p {
+        font-size: 14px;
+    }
+    
+    .Contact-body h3 {
+        font-size: 20px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center; 
+        gap: 15px;
+        padding: 0; 
+        border: none;
+        width: auto; 
+    }
+
+    .contacts .contact-item:nth-child(1),
+    .contacts .contact-item:nth-child(3),
+    .separator {
+        display: none;
+    }
+
+     .footer-section {
+        margin-top: 40px;
+        padding: 30px 0;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 30px;
+        padding: 0 10px;
+        gap: 25px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        font-size: 14px;
+        order: 2;
+    }
+
+    .redes {
+        justify-content: center;
+        gap: 10px;
+        order: 1;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .contact-bar {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+    .separator {
+        display: none;
+    }
+     .estrella{
+        padding-left: 0%;
+    }
+
+    .footer-section {
+        margin-top: 40px;
+        padding: 30px 0;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 30px;
+        padding: 0 10px;
+        gap: 25px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        font-size: 14px;
+        order: 2;
+    }
+
+    .redes {
+        justify-content: center;
+        gap: 10px;
+        order: 1;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .contact-bar {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+    .separator {
+        display: none;
+    }
+
+   .Contact-Me {
+        margin: 0 auto;
+    }
+
+
+}
