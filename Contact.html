@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Mi Portfolio</title>
-    <link rel="stylesheet" href="styles_contact.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
-</style>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<header class="navbar">
+<body>
+    <header class="navbar">
         <div class="logo">Jeffery Cannon.</div>
         <nav>
             <a href="index.html">Home</a>
@@ -18,268 +16,225 @@
             <a href="Contact.html">Contact Me</a>
             <a href="#" class="btn-primary"><i class="fas fa-phone-alt"></i> Book a Call</a>
         </nav>
-</header>
-<body>
-    <section class="contact-section">
-        <div class="contact-header">
-            <img src="Icon Container.svg" alt="Icono de mensaje">
-            <h1>We'd love to hear from you.</h1>
-            <p>Here's what some of my satisfied clients have to say about my work</p>
-            <div class="service-benefits">
-                <div class="benefit-item">
-                    <img src="24_7.svg" alt="24/7 Assistance">
-                    <span>24/7 Assistance</span>
+    </header>
+
+    <div class="we_loved_from">
+        <!--  Message  -->
+        <div class="grid-container">
+        <div class="we_loved_from_header">
+            <a href="#">
+                <img src="icon_message.svg" alt="">
+            </a>
+            <h3>We'd love to here from you</h3>
+            <div class="We_loved_from_description">
+                <p>Here's what some of my satisfied clients have to say about my work</p>
+            </div>
+            <p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="24_7.svg" alt="">
+                        </a>
+                            <a href="#">24/7 Assistance</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="thunder.svg" alt="">
+                        </a>
+                        <a href="#">Quick Change Resolutions</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="glitters.svg" alt="">
+                        </a>
+                        <a href="#">Flexible working Hours</a>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="box_a">
+                <div class="card narrow">
+                    <h3>
+                        You can Email Me Here
+                    </h3>
+                    <p>
+                        jefferycannon@gmial.com
+                    </p>
+                    <a href="#">
+                        <img src="arrow.svg" alt="">
+                    </a>
                 </div>
-                <div class="benefit-item">
-                    <img src="thunder.svg" alt="Quick Change Resolutions">
-                    <span>Quick Change Resolutions</span>
-                </div>
-                <div class="benefit-item">
-                    <img src="glitters.svg" alt="Flexible Working Hours">
-                    <span>Flexible working Hours</span>
+            <div class="card narrow">
+                <h3>
+                    Give Me a Call on
+                </h3>
+                <p>
+                    +91 91813 23 2309
+                </p>
+                <a href="#">
+                    <img src="arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="card narrow">
+                <h3>
+                    Location
+                </h3>
+                <p>
+                    Somewhere in the World
+                </p>
+                <a href="#">
+                    <img src="arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="card narrow">
+                <p>My social medias</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="Indeed.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="twitter.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="balon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p></p>
+        </div>
+        <div class="box c">
+            <div class="card narrow">
+                <div class="datos_personales">
+                    <ul>
+                        <li>
+                            <a href="#">First name</a>
+                        </li>
+                        <li>
+                            <a href="#">Last name</a>
+                        </ul>
+                        <li>
+                            <a href="#">Email</a>
+                        </li>
+                        <li>
+                            <a href="#">Phone Number</a>
+                        </li>
                 </div>
             </div>
         </div>
-
-        <div class="contact-content-container">
-            <div class="contact-info-column">
-                <div class="info-card">
-                    <h3>You can Email Me Here</h3>
-                    <p>jefferycannon@gmail.com</p>
-                    <a href="mailto:jefferycannon@gmail.com" class="arrow-link">
-                        <img src="arrow.svg" alt="Ir a">
+    </div>
+    <div class="iconos_redes">
+        <div class="grid-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="Indeed.svg" alt="">
                     </a>
-                </div>
-
-                <div class="info-card">
-                    <h3>Give Me a Call on</h3>
-                    <p>+91 91813 23 2309</p>
-                    <a href="tel:+9191813232309" class="arrow-link">
-                        <img src="arrow.svg" alt="Llamar">
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="twitter.svg" alt="">
                     </a>
-                </div>
-
-                <div class="info-card">
-                    <h3>Location</h3>
-                    <p>Somewhere in the World</p>
-                    <a href="#" class="arrow-link">
-                        <img src="arrow.svg" alt="Ver ubicación">
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="balon.png" alt="">
                     </a>
-                </div>
-                <div class="My-social-profiles">
-
-                <h3><BR>My Social Profiles</h3>
-                    </div>
-                    <div class="Social-container">
-
-                <div class="social-profiles-card">
-                    <div class="social-links">
-                        <a href="#" aria-label="LinkedIn">
-                            <img src="Indeed.svg" alt="LinkedIn">
-                        </a>
-                        <a href="#" aria-label="Twitter">
-                            <img src="twitter.svg" alt="Twitter">
-                        </a>
-                        <a href="#" aria-label="Dribbble">
-                            <img src="balon.png" alt="Dribbble">
-                        </a>
-                    </div>
-                </div>
-                                    </div>
-
-            </div>
-
-            <div class="contact-form-column">
-                <form action="#" method="POST">
-                    <div class="form-row">
-                        <input type="text" id="firstName" name="firstName" placeholder="First Name">
-                        <input type="text" id="lastName" name="lastName" placeholder="Last Name">
-                    </div>
-                    <div class="form-row">
-                        <input type="email" id="email" name="email" placeholder="Email">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
-                    </div>
-
-                    <h4>Why are you contacting us?</h4>
-                    <div class="contact-reason-options">
-                        <label>
-                            <input type="radio" name="reason" value="web-design">
-                            Web Design
-                        </label>
-                        <label>
-                            <input type="radio" name="reason" value="collaboration">
-                            Collaboration
-                        </label>
-                        <label>
-                            <input type="radio" name="reason" value="mobile-app-design">
-                            Mobile App Design
-                        </label>
-                        <label>
-                            <input type="radio" name="reason" value="others">
-                            Others
-                        </label>
-                    </div>
-
-                    <textarea id="message" name="message" placeholder="Your Message here..."></textarea>
-
-                    <button type="submit">Send</button>
-                </form>
-            </div>
+                </li>
+            </ul>
         </div>
-    </section>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ - Jeffery Cannon</title>
-    <link rel="stylesheet" href="faq-styles.css">
-</head>
-<body>
-
-    <section class="faq-section">
-
-        <div class="faq-header">
+    </div>
+    <div class="FAQ">
+        <div class="FAQ-header">
             <h2>Frequently Asked Questions</h2>
             <p>Here are answers to some common questions</p>
-        </div>
+       </div>
 
-        <div class="faq-container">
+     <div class="FAQ-body">
+        <div class="Accordion">
+
+            <div class="Accordion-abierto">
+                <div class="Accordion-header">
+                    <h3>Can you work with clients remotely?</h3>
+                    <img src="images/X.svg" alt="">
+                </div>
+                <div class="Accordion-body">
+                    <p>Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.</p>
+                </div>
+            </div> 
             
-            <div class="faq-accordion-column">
-                
-                <details class="faq-item" open>
-                    <summary class="faq-question">
-                        <h3>Can you work with clients remotely?</h3>
-                        <span class="faq-toggle">+</span>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>Absolutely! I have experience working with clients from all around the world. Through effective communication channels such as email, video calls, and project management tools, I ensure seamless collaboration regardless of geographical location.</p>
-                    </div>
-                </details>
-
-
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <h3>How long does it typically take to complete a web design project?</h3>
-                        <span class="faq-toggle">+</span>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>The timeline for a web design project varies depending on its complexity and scope. A simple website might take 2-4 weeks, while a more complex project with custom features could take 8-12 weeks. I'll provide you with a detailed timeline during our initial consultation.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <h3>Do you offer website maintenance services?</h3>
-                        <span class="faq-toggle">+</span>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>Yes! I offer ongoing website maintenance services including regular updates, security monitoring, content updates, and technical support. I can create a custom maintenance package tailored to your specific needs and budget.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <h3>Can you optimize my website for search engines?</h3>
-                        <span class="faq-toggle">+</span>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>Absolutely! I implement SEO best practices in every website I build, including proper meta tags, semantic HTML structure, optimized images, fast loading times, and mobile responsiveness. I can also provide ongoing SEO consulting services.</p>
-                    </div>
-                </details>
-
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <h3>Can you integrate third-party tools or platforms into my website?</h3>
-                        <span class="faq-toggle">+</span>
-                    </summary>
-                    <div class="faq-answer">
-                        <p>Yes! I have experience integrating various third-party tools and platforms including payment gateways, CRM systems, email marketing tools, analytics platforms, and social media feeds. Just let me know what integrations you need.</p>
-                    </div>
-                </details>
-
-            </div>
-
-            <div class="faq-cta-column">
-                <div class="cta-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                    </svg>
+            <div class="Accordion-cerrado">
+                <div class="Accordion-header">
+                    <h3>How long does it typically take to complete a web design project?</h3>
+                    <img src="images/Mas.svg" alt="">
                 </div>
-                <h3>Still have any Questions ?</h3>
-                <p>Let's collaborate to create an exceptional website that sets you apart from the competition. Contact me today to discuss your web design needs and bring your digital vision to life!</p>
-                <button class="cta-button">Contact Me</button>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="site-footer">
-        <div class="footer-content">
+            </div>  
             
-            <div class="footer-top">
-                <div class="footer-logo">Jeffery Cannon.</div>
-                
-                <nav>
-                    <ul class="footer-nav">
-                        <a href="index.html">Home</a>
-                        <a href="aboutme.html">About Me</a>
-                        <a href="Portfolio.html">Portfolio</a>
-                        <a href="Contact.html">Contact Me</a>
-                    </ul>
-                </nav>
+            <div class="Accordion-cerrado">
+                <div class="Accordion-header">
+                    <h3>Do you offer website maintenance services?</h3>
+                    <img src="images/Mas.svg" alt="">
+                </div> 
+            </div>      
+            
+            <div class="Accordion-cerrado">
+                <div class="Accordion-header">
+                    <h3>Can you optimize my website for search engines?</h3>
+                    <img src="images/Mas.svg" alt="">
+                </div>    
+            </div>    
 
-                <div class="footer-social">
-                    <a href="#linkedin" aria-label="LinkedIn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                        </svg>
-                    </a>
-                    <a href="#twitter" aria-label="Twitter">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white">
-                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-                        </svg>
-                    </a>
-                    <a href="#dribbble" aria-label="Dribbble">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="white">
-                            <path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-7.18.662-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/>
-                        </svg>
-                    </a>
+            <div class="Accordion-cerrado">
+                <div class="Accordion-header">
+                    <h3>Can you integrate third-party tools or platforms into my website?</h3>
+                    <img src="images/Mas.svg" alt="">
                 </div>
             </div>
-
-            <div class="footer-middle">
-                <div class="footer-contact-item">
-                    <a href="#" aria-label="Dribbble">
-                        <img src="location.svg" alt="Dribbble">
-                    </a>
-                    <span>jefferycannon@gmail.com</span>
-                </div>
-
-                <div class="footer-contact-item">
-                    <a href="#" aria-label="Dribbble">
-                        <img src="phone.svg" alt="Dribbble">
-                    </a>
-                    <span>+91 91813 23 2309</span>
-                </div>
-
-                <div class="footer-contact-item">
-                    <a href="#" aria-label="Dribbble">
-                        <img src="location.svg" alt="Dribbble">
-                    </a>
-                    <span>Somewhere in the World</span>
-                </div>
+        </div> 
+        
+        <div class="Contact-card">
+            <div class="estrella">
+                <img src="images/Estrella.svg" alt="" class="estrella">
+            </div> 
+            <div class="Contact-body">
+             <h3>Still have any Questions ?</h3>
+             <p>Let's collaborate to create an exceptional website that sets you apart from the competition. Contact me today to discuss your web design needs and bring your digital vision to life!</p>
             </div>
 
-            <div class="footer-bottom">
-                <p>Copyright © 2023 Jeffery Cannon. All rights reserved.</p>
-            </div>
-
+            <img src="images/Contact-Me.svg" alt="" class="Contact-Me">
         </div>
+    </div>    
+
+    <footer class="footer">
+        <div class="footer-grid-container">
+            <div class="footer-logo">Jeffery Cannon.</div>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="Contact.html">Contact Me</a>
+            </nav>
+            <div class="social-links">
+                <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon dribbble"><i class="fab fa-dribbble"></i></a>
+            </div>
+        </div>
+        
+        <div class="contact-info-container">
+            <div class="contact-info-item"><i class="fas fa-envelope"></i> jefferycannon@gmail.com</div>
+            <div class="contact-info-item"><i class="fas fa-mobile-alt"></i> +91 91813 23 2929</div>
+            <div class="contact-info-item"><i class="fas fa-map-marker-alt"></i> Somewhere in the World</div>
+        </div>
+        
+        <p class="copyright">Copyright © 2023 Jeffery Cannon. All rights reserved.</p>
     </footer>
-
-</body>
-</html>
-</body>
+</body>    
 </html>
