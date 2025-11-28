@@ -1129,10 +1129,140 @@ position: absolute;
     margin-top: 30px;
 }
 
-/*responsive*/
-/*dispositivos moviles*/
+
+        text-align: center; 
+    }
+
+    .welcome {
+        width: 100%; 
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .aboutstats {
+        justify-content: center; 
+        gap: 25px;
+        margin-top: 30px;
+    }
 
 
+.milestones {
+    max-width: 1200px;
+    width: 90%; 
+    margin: auto;
+    padding-top: 150px;
+}
+
+.timelinerecent,
+.timelineold {
+    display: none; 
+}
+
+.milestonesintroduction {
+    width: 996px; 
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.milestonerow,
+.milestonerow-reverse {
+    display: flex;
+    align-items: center;
+    margin-top: 52.5px;
+    width: 100%;
+    height: auto;
+}
+
+.milestonesquare,
+.milestonesquare-reverse {
+    width: 45%; 
+    height: auto;
+    padding: 20px;
+    transition: none; 
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding-top: 50px;
+}
+
+.timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: var(--timeline-recent); 
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.dot, .dotreverse {
+    left: 50%; 
+    transform: translateX(-50%);
+    position: absolute; 
+    z-index: 2;
+}
+
+.speech-bubble { margin-right: 123px; }
+.speech-bubbleleft { margin-left: 123px; }
+
+@media (max-width: 768px) {
+
+    .milestonesintroduction {
+        max-width: 95%;
+        padding: 0 10px;
+    }
+
+    .timeline-wrapper::before {
+        left: 20px;
+    }
+
+    .milestonerow,
+    .milestonerow-reverse {
+        flex-direction: column; 
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .milestonesquare,
+    .milestonesquare-reverse,
+    .milestonesquarefinale {
+        width: 90%;
+        margin: 10px auto; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .speech-bubble:after,
+    .speech-bubbleleft:after {
+        content: none;
+    }
+
+    .dot, .dotreverse {
+        left: 20px; 
+        transform: translateX(-50%);
+        margin-left: 0;
+        top: 0;
+    }
+
+    .milestonesquare {
+        margin-left: 30px; 
+        padding: 15px;
+    }
+
+    .milestonesquare-reverse {
+        flex-direction: row; 
+        margin-left: 30px;
+        padding: 15px;
+    }
+
+    .speech-bubble,
+    .speech-bubbleleft {
+        margin: 10px 0 10px 30px;
+    }
+}
 /* --- 2. Hero Section --- */
 .hero-section {
     text-align: center;
@@ -1343,7 +1473,6 @@ position: absolute;
 
 .contact-info-container {
     display: none; 
-}
 }
 
 /*Tabletas y laptops*/
@@ -2276,5 +2405,267 @@ position: absolute;
 
     .contacts{
         display: none;
+    }
+}
+/*=========Jonatan==========*/
+/*======Media Queries======*/
+/*==Dispositivos Mobiles==*/
+@media (min-width: 320px) and (max-width: 768px){
+    body{
+        font-family: Manrope, SemiBold;
+        margin: 0px;
+        padding: 0px;      
+    }    
+
+    .we_loved_from{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+ .contact ul{
+        display: none;
+    }
+
+    .contact .icons{
+        display: block;
+    }
+
+    .heroabout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .heroabout img{
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .aboutstats{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .aboutstats h1{
+        font-size: 1.5em;
+    }
+
+    .milestones{
+        padding: 40px 15px;
+    }
+
+    .milestonerow, .milestonerow-reverse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 10px 0;
+    }
+
+    .milestonesquare, .milestonesquare-reverse, .milestonesquarefinale {
+    width: 90%;
+    margin-top: 15px;
+    }
+
+    .timelineold {
+    width: 2px;
+    height: 60px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+    .year, .now {
+    text-align: center;
+    width: 100%;
+}
+
+    .footer-top, .contact-bar {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+    .footer-menu a {
+    display: block; 
+    margin: 5px 0;
+}
+
+    .contact-bar .separator {
+    display: none; 
+}
+    .contact-bar .contacts {
+    flex-direction: column;
+}
+}
+/* MEDIA QUERY: LAPTOP & TABLET */
+
+@media (min-width: 769px) {
+
+    .we_loved_from {
+        padding: 20px 40px;
+    }
+    .contact ul {
+        display: flex; 
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+.contact ul li {
+        margin-left: 20px;
+    }
+    .contact .icons {
+        display: none;
+    }
+
+    .heroabout {
+        flex-direction: row; 
+        text-align: left;
+        padding: 40px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .heroabout img {
+        max-width: 300px;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+
+    .aboutstats {
+        justify-content: flex-start; 
+    }
+    .aboutstats > div {
+        margin-right: 40px;
+        text-align: left;
+    }
+    
+    .milestones {
+        padding: 60px 40px;
+        max-width: 800px; 
+        margin: 0 auto;
+    }
+
+    .milestonesquare, .milestonesquare-reverse, .milestonesquarefinale {
+        width: 100%; 
+    }
+
+    /* --- Footer --- */
+    .footer-top {
+        flex-direction: row; 
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .contact-bar .contacts {
+        flex-direction: row;  
+    }
+    .contact-bar .separator {
+        display: block; 
+        margin: 0 10px;
+    }
+}
+
+
+/* 3. MEDIA QUERY: DESKTOP           */
+
+@media (min-width: 1201px) {
+    
+    .we_loved_from {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .heroabout {
+        max-width: 1400px;
+    }
+
+    .milestones {
+        max-width: 1400px; 
+        margin: 0 auto;
+        position: relative;
+        padding-top: 80px;
+    }
+
+    .timeline-vertical-line {
+        position: absolute;
+        left: 50%;
+        width: 4px;
+        background-color: #ccc;
+        top: 0;
+        bottom: 0;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .timelineold, .timelinerecent {
+        display: none;
+    }
+    
+    .year, .now {
+        position: absolute; 
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        background: white; 
+        padding: 0 10px;
+    }
+
+    .milestonerow, .milestonerow-reverse {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-start;
+        position: relative; 
+        padding: 50px 0;
+    }
+    
+    .milestonerow-reverse {
+        justify-content: flex-start;
+    }
+
+    .milestonerow {
+        justify-content: flex-end;
+    }
+
+    .milestonesquare, .milestonesquare-reverse {
+        width: 45%; 
+        box-sizing: border-box;
+        margin-top: 0;
+        position: relative;
+        z-index: 5;
+    }
+
+    .milestonesquare {
+        margin-left: 20px; 
+        order: 2; 
+    }
+
+    .milestonesquare-reverse {
+        margin-right: 20px; 
+        order: 1; 
+        text-align: right;
+    }
+
+    .milestonerow .milestonedescription {
+        order: 1; 
+        width: 5%;
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    .milestonerow-reverse .milestonedescription {
+        order: 2; 
+        width: 5%;
+        margin-left: 20px;
+        text-align: left;
     }
 }
