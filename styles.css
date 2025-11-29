@@ -2413,3 +2413,164 @@ height: 10px;
         display: none;
     }
 }
+
+/*Responsivo de About Me*/
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    .navbar, .heroabout, .milestones, .footer-section {
+        width: 100% !important;
+        padding: 0 20px; 
+        box-sizing: border-box;
+    }
+
+    /* 2. Navegación (Menú) */
+    .navbar nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    /* 3. Sección Hero (Sobre Mí) */
+    .heroabout {
+        flex-direction: column; 
+        padding-top: 40px;
+        gap: 30px;
+        height: auto;
+    }
+
+    .heroaboutdescription {
+        width: 100%;
+    }
+
+    .welcome {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imjeff h1 {
+        font-size: 32px; 
+        text-align: center;
+    }
+
+    .imjeff p {
+        text-align: center;
+    }
+    
+    .heroabout > img {
+        width: 60%; 
+        margin: 0 auto;
+    }
+
+    .aboutstats {
+        flex-direction: column; 
+        align-items: center;
+        border: none; 
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .milestones {
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .milestonesintroduction {
+        width: 100%;
+    }
+    
+    .milestonesintroduction h1 {
+        font-size: 32px;
+    }
+
+    .timelinerecent, .timelineold, .speech-bubble, .speech-bubbleleft, .speech-bubbletop, .dot, .dotreverse {
+        display: none; 
+    }
+
+    .milestones::before {
+        content: '';
+        position: absolute;
+        top: 200px; 
+        bottom: 50px;
+        left: 50%;
+        width: 2px;
+        background: linear-gradient(to bottom, #9E00FF, #DDCCFF);
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    .now, .year, .year2018 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+        border: 1px solid #eee; 
+    }
+
+    .milestonerow, .milestonerow-reverse {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .milestonesquare, .milestonesquare-reverse, .milestonesquarefinale {
+        flex-direction: column; 
+        width: 90%; 
+        height: auto;
+        margin: 0 auto; 
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        box-sizing: border-box;
+    }
+
+    .milestonesquare img, .milestonesquare-reverse img, .milestonesquarefinale img {
+        margin: 0 0 20px 0; 
+        order: -1; 
+    }
+
+    .milestonesquare p, .milestonesquare-reverse p {
+        margin: 0; 
+        font-size: 16px;
+    }
+
+    .milestonedescription {
+        display: none; 
+    }
+    
+    .milestonesquarefinale {
+        margin-bottom: 50px;
+    }
+    
+    .milestonesquarefinaletext {
+        margin-right: 0;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .contact-bar .contacts {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .separator {
+        display: none; 
+    }
+}
